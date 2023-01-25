@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class C05_Scanner {
 
-    public static void main(String[] args) {
+    public static <Scanner> void main(String[] args) {
 
         /*
         kullanıcıdan iki sayı alıp
         bu sayıların çarpımını yazdırın
          */
-
+/*
         Scanner scan = new Scanner(System.in);
 
         // 2.adım bilgi istemek
@@ -26,6 +26,16 @@ public class C05_Scanner {
         double sayi2= scan.nextDouble();
 
         System.out.println("girilen sayıların çarpımı:"+sayi1*sayi2);
+
+
+/*
+        Herhangi bir programlama dilinde,
+        kendileri de dahil olmak üzere iki sayısal değer arasındaki
+        tüm tek sayıları gösteren bir fonksiyon yazınız.
+                Kullanıcı girişinden parametreleri okumayı düşünün.
+
+ */
+
 
     }
 }
